@@ -97,6 +97,10 @@ body {
 .container{
   display: flex;
   padding-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
+  grid-gap: 8px; /* Space between grid items */
+  padding: 10px;
 }
 
 .title-anime {
